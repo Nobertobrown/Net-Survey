@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Net Survey</string>
+    <string name="text_road">Road</string>
+    <string name="text_start">Start</string>
+    <string name="text_end">End</string>
+    <string name="text_link">Link</string>
+    <string name="text_subLink">Sub-link</string>
+    <string name="text_corridor">Corridor</string>
+    <string name="text_region">Region</string>
+    <string name="text_shoulderType">Shoulder Type</string>
+    <string name="text_survey_ref">Survey ref</string>
+    <string name="text_survey_type">Surface type</string>
+    <string name="carriage_shape">Carriageway shape (1–6)</string>
+    <string name="carriage_surface">Carriageway surface (1–5)</string>
+    <string name="overall_condition">Overall condition (1–5)</string>
+    <string name="spot_improvement">Spot improvement(m)</string>
+    <string name="left_drainage">Left drainage(1–5)</string>
+    <string name="right_drainage">Right drainage(1–5)</string>
+    <string name="left_special_drainage">Left special drainage(m)</string>
+    <string name="right_special_drainage">Right special drainage(m)</string>
+    <string name="left_slopes">Left slopes(0–2)</string>
+    <string name="right_slopes">Right slopes(0–2)</string>
+    <string name="urgent">Urgent</string>
+    <string name="gravel_thickness">Gravel thickness</string>
+    <string name="culverts_new">Culverts-new</string>
+    <string name="bridges_new">Bridges-new</string>
+    <string name="bridges_repair">Bridges-repair</string>
+    <string name="river_protection">River protection (m)</string>
+    <string name="notes">Notes</string>
+    <string name="next">Next</string>
+    <string name="none">None</string>
+</resources>
