@@ -8,16 +8,23 @@
     tools:context=".LoginActivity">
 
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="188dp"
-        android:layout_height="141dp"
-        android:src="@drawable/image"
+    <androidx.cardview.widget.CardView
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        app:cardCornerRadius="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.114" />
+        app:layout_constraintVertical_bias="0.081">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image1" />
+    </androidx.cardview.widget.CardView>
 
     <EditText
         android:drawableStart="@drawable/baseline_person_24"
@@ -53,6 +60,7 @@
         android:layout_width="234dp"
         android:layout_height="51dp"
         android:text="Login"
+        android:backgroundTint="@color/main"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
