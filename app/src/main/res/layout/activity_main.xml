@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingHorizontal="20dp"
+    android:background="@drawable/asset3"
     tools:context=".LoginActivity">
 
 
@@ -35,6 +36,8 @@
         android:ems="10"
         android:inputType="text"
         android:hint="Username"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +52,9 @@
         android:layout_height="65dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:hint="passoword"
+        android:hint="Passoword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -58,7 +63,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="234dp"
-        android:layout_height="51dp"
+        android:layout_height="60dp"
         android:text="Login"
         android:backgroundTint="@color/main"
         app:layout_constraintBottom_toBottomOf="parent"

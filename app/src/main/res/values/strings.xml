@@ -23,6 +23,7 @@
     <string name="urgent">Urgent</string>
     <string name="gravel_thickness">Gravel thickness</string>
     <string name="culverts_new">Culverts-new</string>
+    <string name="culverts_repair">Culverts-repair</string>
     <string name="bridges_new">Bridges-new</string>
     <string name="bridges_repair">Bridges-repair</string>
     <string name="river_protection">River protection (m)</string>

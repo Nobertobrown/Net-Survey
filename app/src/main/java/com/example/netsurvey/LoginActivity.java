@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             Toast.makeText(this,"username: "+user+"\npassword: "+pass,Toast.LENGTH_SHORT).show();
 
             if (user.equals("coe") && pass.equals("od20")){
-                Intent login = new Intent(this, AreaCoverage.class);
+                Intent login = new Intent(this, DataCollection.class);
                 startActivity(login);
             }
         }
