@@ -1,4 +1,4 @@
-package com.example.netsurvey.coverage;
+package com.example.netsurvey.model;
 
 public class Area {
     private int id;

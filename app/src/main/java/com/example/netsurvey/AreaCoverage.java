@@ -11,8 +11,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.netsurvey.coverage.Area;
-import com.example.netsurvey.database.DatabaseHelper;
+import com.example.netsurvey.model.Area;
+import com.example.netsurvey.repository.DatabaseHelper;
 
 public class AreaCoverage extends AppCompatActivity implements View.OnClickListener {
     public EditText start, end, corridor, region, shoulderType, startPoint, endPoint, road, link;
@@ -63,8 +63,8 @@ public class AreaCoverage extends AppCompatActivity implements View.OnClickListe
             db.createArea(new Area(startTxt, endTxt, corridorTxt, regionTxt, shoulderTxt, startPointTxt, endPointTxt, roadTxt, linkTxt, subLinkTxt));
             Toast.makeText(this, "Area Created", Toast.LENGTH_SHORT).show();
 
-//            Intent intent = new Intent(getApplicationContext(), DataCollection.class);
-//            startActivity(intent);
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
         }else {
             Toast.makeText(this,"You are required to fill all the inputs", Toast.LENGTH_SHORT).show();
         }
